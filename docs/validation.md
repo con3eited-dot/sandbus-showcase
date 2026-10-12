@@ -2,6 +2,12 @@
 
 整理日期：2026-10-13。此文仅公开验证摘要，不包含源代码、内部调试日志或本地文件路径。
 
+## 颜色编号更新
+
+蓝色统一为 B1、B2、B3，绿色为 G1、G2，红色 R、黄色 Y 不变。阻挡引用与自动测试同步更新，玩法、速度和布局不变。颜色前缀检查先在旧配置失败，修改后与四组原有检查一同通过；新版 APK 导出成功，但未重新执行模拟器安装验证。
+
+公开截图和视频已换为新编号。约 32 秒视频由 Godot 固定 30 帧录制，脚本自动派车、引擎正常推进收集与撤离，覆盖综合关通关、失败与新开局。录制墙钟约 4 秒，播放时长约 32 秒，不把固定帧录制描述为人工操作或实时墙钟录屏。
+
 ## 最新桌面验证
 
 环境：Windows、Godot 4.7.2、NVIDIA GeForce RTX 4060 Ti、OpenGL 3.3 桌面渲染。
@@ -27,7 +33,7 @@ Pixel 6 / Android 15 / API 35 / x86_64，1080×2400。
 
 此前最新版 APK 完成综合关通关、死锁失败、重开，以及 Demo 02 的沙子下落与高亮检查。该记录来自此前验证，公开展示整理时没有重新运行模拟器。
 
-[35 秒操作视频](https://github.com/con3eited-dot/sandbus-showcase/raw/refs/heads/main/media/sandbus-demo-preview.mp4) 是连续操作片段，仅覆盖通关前段，不是全流程录像。
+[当前公开视频](https://github.com/con3eited-dot/sandbus-showcase/raw/refs/heads/main/media/sandbus-demo-preview.mp4) 是新版桌面自动演示，不是此处历史模拟器操作记录。
 
 ## 不作出的声明
 

@@ -10,11 +10,11 @@ Godot 4.7.2 · 竖屏 · 鼠标 / 触屏 · 简洁几何美术
 
 ### 快速查看
 
-- [下载操作演示视频（MP4，约 35 秒 / 12 MB）](https://github.com/con3eited-dot/sandbus-showcase/raw/refs/heads/main/media/sandbus-demo-preview.mp4)
+- [下载新版演示视频（MP4，约 32 秒 / 0.6 MB）](https://github.com/con3eited-dot/sandbus-showcase/raw/refs/heads/main/media/sandbus-demo-preview.mp4)
 - [查看验证结果与边界](docs/validation.md)
 - [下载全部公开展示材料（ZIP，不含源代码）](https://github.com/con3eited-dot/sandbus-showcase/archive/refs/heads/main.zip)
 
-演示视频是连续操作片段，覆盖通关前段，并非完整通关录像。下方另提供桌面运行的通关、失败和重新开局截图。
+新版视频由 Godot 桌面引擎固定 30 帧输出，包含四关初始画面、综合关实际收集与撤离后的通关、死锁失败和新开局恢复。派车由自动脚本驱动，不是编辑器窗口人工操作录像；不手动清沙或跳过离场。
 
 ### 设计问题与方案
 
@@ -53,6 +53,8 @@ Godot 4.7.2 · 竖屏 · 鼠标 / 触屏 · 简洁几何美术
 [失败画面](media/mod-fail.png) · [新开局恢复画面](media/mod-restart.png) · [四关选择首页](media/menu.png)
 
 ### 玩法
+
+车辆编号使用颜色英文首字母：R = Red（红色）、Y = Yellow（黄色）、B = Blue（蓝色）、G = Green（绿色），数字区分同色车辆。
 
 点击下方车辆，车辆沿箭头方向驶出。路径上的其他车辆会阻挡，即使同色也不能穿过。可驶出的车进入上方装沙车道，车道最多容纳五辆车；车辆向右排队移动，自动收集附近已露出的同色沙。
 
